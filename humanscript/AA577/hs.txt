@@ -1,0 +1,1 @@
+This is sample Android Widget that change the Widget Image by Clicking Widget Image. There are two images, one is awake and other is asleep. At first it show awake image then user click the awake image it change and show asleep image. If the user clicks the image again, it changes back.
