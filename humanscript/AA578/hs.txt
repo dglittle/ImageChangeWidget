@@ -1,0 +1,35 @@
+- fork https://github.com/dglittle/ImageChangeWidget
+- copy-paste this job description to new file: humanscript/AA578/hs.txt
+- widget is currently 2x2
+    - make it 1x1
+    - may require resizing the images
+- create a new icon to represent a "working" state
+    - I don't care what it looks like
+    - maybe it can be an hourglass
+- if icon has eyes open, and user clicks icon:
+    - set icon to "working" icon
+    - let x = a random number from 0 to 1
+    - if x < 0.5
+        - make http request to www.google.com
+    - else
+        - make http request to http://blahblahblah5678123.com
+        - this domain should not exist
+    - if the http request succeeds
+        - change icon to eyes closed
+    - else
+        - change icon to eyes open
+- if icon has eyes closed, and user clicks icon:
+    - do the same thing as before,
+        except if the request succeeds,
+            change the icon to eyes open,
+        else,
+            change the icon to eyes closed
+- take screenshot of widget running on phone in "eyes closed" state
+- put screenshot in humanscript/AA578 directory
+- make pull request to original repo
+- send me message saying it is done
+
+- in your cover-letter, please summarize what I want.
+
+Thanks,
+Greg
