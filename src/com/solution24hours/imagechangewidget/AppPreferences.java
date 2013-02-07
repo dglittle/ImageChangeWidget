@@ -33,6 +33,11 @@ public class AppPreferences {
 	public int getImage() {
 		return apppSharedPreferences.getInt("Number", 0);
 	}
+	
+	public void toggleImage() {
+		int newValue = (getImage() == 1 ? 0 : 1);
+		setImage(newValue);
+	}
 
 	
 

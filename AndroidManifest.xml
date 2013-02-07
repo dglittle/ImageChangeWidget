@@ -14,11 +14,16 @@
         android:normalScreens="true"
         android:smallScreens="false" />
 
-    <application
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoDisplay" >
+        
+	    <service android:name=".HttpUpdateWidgetService"></service>
+        
         <activity
             android:name="com.solution24hours.imagechangewidget.MainActivity"
             android:label="@string/app_name" >

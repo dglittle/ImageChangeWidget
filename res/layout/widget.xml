@@ -6,14 +6,17 @@
     android:background="@drawable/widget_frame"
     android:gravity="center"
     android:orientation="horizontal" >
-
+<!-- android:padding="@dimen/widget_margin" -->
+    
   <ImageView
       android:id="@+id/changeImageView"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_alignParentLeft="true"
+      android:layout_centerHorizontal="true"
       android:layout_centerVertical="true"
-      android:layout_marginLeft="7dip"
       android:src="@drawable/awake" />
-
+<!--
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="7dip"
+ -->
 </RelativeLayout>
